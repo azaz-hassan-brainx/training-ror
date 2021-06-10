@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <base href="https://www.w3schools.com/" target="_blank">
+<body>
+<h2>HTML Forms</h2>
+
+<form action="/action_page.php" method="get" autocomplete="on">
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John"><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe"><br><br>
+  <input type="submit" value="Submit">
+  <input type="reset"> <br>
+  <select id="cars" name="cars" size="3" multiple>
+    <option value="volvo">Volvo</option>
+    <option value="saab">Saab</option>
+    <option value="fiat">Fiat</option selected>
+    <option value="audi">Audi</option>
+  </select>
+  <br><br>
+
+  <label for="message">Tell me about yourself</label><br>
+  <textarea name="message" rows="10" cols="30">
+        The cat was playing in the garden.
+    </textarea>
+
+
+    <br><label for="phone">Enter a phone number:</label><br>
+    <input type="tel" id="phone" name="phone" placeholder="0300-0120211" pattern="03[0-4][0-9]-[0-9]{7}" required><br><br>
+    <small>Format: 0300-0120211</small><br>
+    <input type="submit" value="Submit">
+
+    <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" value="John" readonly><br>
+  <label for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname" value="Doe" disabled>
+  <br><br><br><label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname" size="50"><br>
+  <label for="pin">PIN:</label><br>
+  <input type="text" id="pin" name="pin" size="4">
+</form>
+
+<p>If you click the "Submit" button, the form-data will be sent to a page called "/action_page.php".</p>
+</body>
+</html>
