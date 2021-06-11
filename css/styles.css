@@ -5,8 +5,12 @@ body {
     background-size: cover;
     background-position: center;
     margin: 0%;
+    padding-top: 1%;
     
-    
+}
+
+.nav-bar {
+  width: 100vw;
 }
 .myiconclass {
   margin-left: 2vw;
@@ -17,13 +21,18 @@ body {
   display: none;
 }
 
+.anchorp {
+  padding: 0%;;
+  width: 100%;
+}
+
+
 
 h1 {
   color: orange;
   text-align: left;
   opacity: 0.5s;
-  display: block;
-  width: 100%
+  display: inline;
 }
 
 p {
@@ -48,16 +57,14 @@ p {
 .navigation {
   text-shadow: 1px 0.5px red;
   color: khaki;
-  float: left;
-  padding: 2vw;
-  display: block;
-  border-style: outset;
-  border-radius: 5px;
+  width: 19%;
+  height: 30px;
+  text-align: center;
+  line-height: 4vw;
 }
 
-.bodr-style {
-  display: flex;
-}
+
+
 
 a {
   display: inline-block
@@ -80,6 +87,10 @@ div > h4 {
 
 li {
   color: black;
+}
+
+li:hover {
+  background-color: rgb(129, 129, 129);
 }
 
 
