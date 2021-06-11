@@ -1,0 +1,203 @@
+body {
+    background-color: rgb(75, 108, 119);
+    background-image: url('/images/background-img.jpg');
+    
+    background-size: cover;
+    background-position: center;
+    margin: 0%;
+    
+    
+}
+.myiconclass {
+  margin-left: 2vw;
+  size: 5px;
+}
+
+.hideit {
+  display: none;
+}
+
+
+h1 {
+  color: orange;
+  text-align: left;
+  opacity: 0.5s;
+  display: block;
+  width: 100%
+}
+
+p {
+  font-family: verdana;
+  color: rgb(255, 255, 255);
+  text-align: start;
+  width: 400px;
+  height: 100px;
+  border: inset;
+  padding: 5px;
+  font-family: "Sofia", 'Courier New', Courier, monospace;
+  font-size: 20px;
+  outline-style: groove;
+  outline-width: 20%;
+  text-indent: 50px;
+  text-align: justify;
+  letter-spacing: 1px;
+  font-variant: small-caps;
+  overflow: auto;
+}
+
+.navigation {
+  text-shadow: 1px 0.5px red;
+  color: khaki;
+  float: left;
+  padding: 2vw;
+  display: block;
+  border-style: outset;
+  border-radius: 5px;
+}
+
+.bodr-style {
+  display: flex;
+}
+
+a {
+  display: inline-block
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: blue
+}
+
+a:visited:hover {
+  color: white;
+}
+div > h4 {
+  color: white;
+}
+
+li {
+  color: black;
+}
+
+
+ol > li {
+  background: #f5f5f5;
+  margin: 5px;
+  width: fit-content;
+
+}
+
+.back-white {
+  background-color: white;
+}
+
+
+
+.block-wise {
+  width: fit-content;
+}
+
+table, th, td {
+  border: 1px solid black;
+
+}
+table {
+  width: 100%;
+}
+td {
+  padding: 5px;
+  text-align: center;
+}
+
+table {
+  width: 50vw;
+}
+
+th {
+  height: 30px;
+}
+
+th, td {
+  border-bottom: 1px solid #ddd;
+}
+
+div.sticktoit {
+  position: sticky;
+  top: 0;
+  margin: 0%;
+  padding: 0%;
+  background-color: lightblue;
+
+}
+
+.diva {
+  float: left;
+  padding: 15px; 
+}
+
+.div1 {
+  float: inherit;
+  background: red;
+}
+
+.div2 {
+  float: inherit;
+  background: yellow;
+  
+}
+
+.div3 {
+  float: inherit;
+  background: green;clear: left;
+}
+.div4 {
+  background: black;
+  color:white;
+}
+
+.flex-container {
+  margin: 10px;
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: DodgerBlue;
+}
+
+.flex-container .box {
+  background-color: #f1f1f1;
+  width: 50%;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul > li {
+  float: left;
+}
+
+li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: black;
+}
