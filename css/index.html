@@ -14,61 +14,220 @@
 </head>
 
 <body>
-  <ul class="nav-bar">
-    <li class="navigation">Home</li>
-    <li class="navigation">Career</li>
-    <li class="navigation active">About Me</li>
-    <li class="navigation">Contact Me</li>
-    <li class="navigation"><a class="anchorp" href="https://github.com/azaz-hassan" target="_blank">My GitHub</a></li>
-  </ul>
-  <i class="fas fa-bars hideit"></i>
-  <i class="glyphicon glyphicon-remove" style="display: none;"></i>
-  <div class="sticktoit"><h1>About Me</h1><i class="fas fa-address-card fa-2x myiconclass"></i></div>
-  <p class="font-effect-fire">My name is Azaz Hassan and I work in ROR.
-    I have self learnt some technologies including Machine
-    Learning and Data Science
-  </p>
-  <div>
-    <a href="https://github.com/azaz-hassan" target="_blank">Click here to go to my github</a>
-  </div>
-
-  <div>
-    <h4>My hobbies are:</h4>
-    <ol type="i">
-      <li>Playing PUBG</li>
-      <li>Reading articles and Books</li>
-      <li>Exploring new things</li>
-
-    </ol>
-  </div>
+  <div class="sticktoit">
+    <ul class="nav-bar head-bar" style="position: sticky;">
+      <li class="navigation">Home</li>
+      <li class="navigation">Career</li>
+      <li class="navigation active">About Me</li>
+      <li class="navigation">Contact Me</li>
+      <li class="navigation" style="float: right;"><a class="anchorp" href="https://github.com/azaz-hassan" target="_blank">My GitHub</a></li>
+    </ul>
  
-  <div class="back-white block-wise" style="margin: auto;">
-    <table border="2px" >
-      <caption style="background-color: rgb(67, 67, 228);">ME Info</caption>
-      <tr>
-        <th>Name</th>
-        <th>Department</th>
-      </tr>
-      <tr>
-        <td>Azaz Hassan</td>
-        <td>Ruby on Rails</td>
-      </tr>
-    </table>
+    <i class="fas fa-bars hideit"></i>
+    <div class="sticktoit">
+      <h1>About Me</h1>
+      <div class="bigit">
+        <i class="fas fa-address-card fa-2x myiconclass"></i>
+        <div class="big-logo">
+          <i class="fas fa-address-card fa-5x myiconclass"></i>
+        </div>
+      </div>  
+    </div>
+
   </div>
+  <div>
+    <ul id="side-bar-ul">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#news">News</a></li>
+      <li class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Careers</a>
+        <div class="dropdown-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </li>
+      <li><a href="#about">About</a></li>
+    </ul>
+    <div style="margin-left:20%;padding:1px 16px;">
+      <p class="intro">My name is Azaz Hassan and I work in ROR.
+        I have self learnt some technologies including Machine
+        Learning and Data Science
+      </p>
+      <div>
+        <a href="https://github.com/azaz-hassan" target="_blank">Click here to go to my github</a>
+      </div>
+      <div>
+        <h4>My hobbies are:</h4>
+        <ol type="i">
+          <li>
+              Playing PUBG. Hover Over me !
+          </li>
+          <li>Reading articles and Books</li>
+          <li>Exploring new things</li>
 
-  <div class="diva">
-    <div class="div1">Div 1</div>
-    <div class="div2">Div 2</div>
-    <div class="div3">Div 3</div>
-    <div class="div4">Div 4</div>
+        </ol>
+      </div>
+    
+      <div class="back-white block-wise" style="margin: auto;">
+        <table >
+          <caption style="background-color: rgb(67, 67, 228);">ME Info</caption>
+          <tr>
+            <th>Name</th>
+            <th>Department</th>
+          </tr>
+          <tr>
+            <td>Azaz Hassan</td>
+            <td>Ruby on Rails</td>
+          </tr>
+        </table>
+      </div>
+
+      <div class="diva">
+        <div class="div1">Div 1</div>
+        <div class="div2">Div 2</div>
+        <div class="div3">Div 3</div>
+        <div class="div4">Div 4</div>
+      </div>
+
+      <div class="flex-container" style="clear:left">
+        <div class="box">Box 1 - This is some text to make sure that the content gets really tall. This is some text to make sure that the content gets really tall.</div>
+        <div class="box">Box 2 - My height will follow Box 1.</div>
+      </div>
+
+      <div>
+        <div class="gallery">
+          <a target="_blank" href="img_5terre.jpg">
+            <img src="/images/1.jpg" alt="Cinque Terre" width="600" height="400">
+          </a>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+        
+        <div class="gallery bigit">
+          <a target="_blank" href="img_forest.jpg">
+            <img src="/images/2.jpg" alt="Forest" width="600" height="400">
+            <div class="big-picture">
+              <img src="/images/2.jpg" alt="Forest" width="100px" height="70px">
+            </div>
+          </a>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+        
+        <div class="gallery">
+          <a target="_blank" href="img_lights.jpg">
+            <img src="/images/3.jpg" alt="Northern Lights" width="600" height="400">
+          </a>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+        
+        <div class="gallery">
+          <a target="_blank" href="img_mountains.jpg">
+            <img src="/images/4.jpg" alt="Mountains" width="600" height="400">
+          </a>
+          <div class="desc">Add a description of the image here</div>
+        </div>
+        
+      </div>
+      <div style="clear: left;">
+        <form action="https://www.w3schools.com/action_page.php">
+          <label for="fname">First Name</label>
+          <input type="text" id="fname" name="firstname" placeholder="Your name..">
+      
+          <label for="lname">Last Name</label>
+          <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+          <label for="phnumber">Phone Number</label>
+          <input type="number" id="phnumber" name="phnumber" placeholder="Phone Number">
+
+          <label for="password">PassWord</label>
+          <input type="password" id="password" name="pword" placeholder="Create New Password">
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email0" placeholder="Your email..">
+
+          <label for="country">Country</label>
+          <select id="country" name="country">
+            <option value="australia">Australia</option>
+            <option value="canada">Canada</option>
+            <option value="usa">USA</option>
+          </select>
+        
+          <input type="submit" value="Submit">
+
+          <input type="reset" value="Reset">
+        </form>
+      </div>
+
+      <div class="container">
+        <form action="/action_page.php">
+        <div class="row">
+          <div class="col-25">
+            <label for="fname">First Name</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="lname">Last Name</label>
+          </div>
+          <div class="col-75">
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="country">Country</label>
+          </div>
+          <div class="col-75">
+            <select id="country" name="country">
+              <option value="australia">Australia</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-25">
+            <label for="subject">Subject</label>
+          </div>
+          <div class="col-75">
+            <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <input type="submit" value="Submit">
+        </div>
+        </form>
+      </div>
+      <div>
+        <h1>Using CSS Counters:</h1>
+        <h2>HTML Tutorial</h2>
+        <p> Hehehehe, this is para 1, verify with number at the beginning of this line.
+        <p> Hehehehe, this is para 2, verify with number at the beginning of this line.
+        <p> Hehehehe, this is para 3, verify with number at the beginning of this line.
+        <h2>CSS Tutorial</h2>
+        <h2>JavaScript Tutorial</h2>
+      </div>
+
+      <div>
+        <h1>HTML tutorials:</h1>
+        <h2>HTML Tutorial</h2>
+        <h2>CSS Tutorial</h2>
+
+        <h1>Scripting tutorials:</h1>
+        <h2>JavaScript</h2>
+        <h2>VBScript</h2>
+
+        <h1>XML tutorials:</h1>
+        <h2>XML</h2>
+        <h2>XSL</h2>
+      </div>
+
+    </div>
   </div>
-
-  <div class="flex-container" style="clear:left">
-    <div class="box">Box 1 - This is some text to make sure that the content gets really tall. This is some text to make sure that the content gets really tall.</div>
-    <div class="box">Box 2 - My height will follow Box 1.</div>
-  </div>
-
-
-
 </body>
 </html>
+
+
