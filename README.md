@@ -5,6 +5,10 @@ https://azaz-hassan-brainx.github.io/training-ror/css/
 
 
 15 June 2021
+Commit: Made new layout page, added my image, scaled it, changed footer and added Follow me details. Click here to check it: https://azaz-hassan-brainx.github.io/training-ror/css/layout1/
+
+
+15 June 2021
 Commit: Improved Horizontal Navigation, added vertical navigation with dropdown on one link. Also done work till give link from CSS Tutorial: https://www.w3schools.com/css/css_counters.asp
 
 
