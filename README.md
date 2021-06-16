@@ -5,6 +5,10 @@ https://azaz-hassan-brainx.github.io/training-ror/css/
 
 
 16 June 2021
+Commit: Started CSS Advanced and done till Shadows.
+
+
+16 June 2021
 Commit: Applied important property. CSS Basics part completed.
 
 

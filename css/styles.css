@@ -170,15 +170,21 @@ div[class=div4]:hover {
   display: flex;
   flex-wrap: nowrap;
   background-color: DodgerBlue;
+  border-radius: 5px 40px 0px;
 }
 
 .flex-container .box {
   background-color: #f1f1f1;
   width: 50%;
-  margin: 10px;
+  margin: 20px;
   text-align: center;
-  line-height: 75px;
-  font-size: 30px;
+  line-height: 40px;
+  font-size: 20px;
+  color: white;
+  text-shadow: 2px 2px 10px black, 0px 0px 15px blue ;
+  box-shadow: 0px 0px 15px black;
+  border: 5px solid currentcolor;
+  background-image: linear-gradient(rgb(207, 207, 207), rgba(37, 37, 37, 0.5));
 }
 
 .head-bar {
@@ -208,7 +214,17 @@ div[class=div4]:hover {
   background-color: black;
 }
 
+#borderimg { 
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url('../icons/border.png') 25% fill;
+}
 
+.put-image {
+  background-image: url(../images/download.jpeg), url(paper.gif);
+  background-repeat: no-repeat, repeat;
+  background-size: contain;
+}
 
 #side-bar-ul {
   list-style-type: none;
@@ -227,6 +243,8 @@ div[class=div4]:hover {
   padding: 8px 20px;
   text-decoration: none;
   text-align: left;
+  width: 100%;
+
 }
 #side-bar-ul li a.active {
   background-color: #04AA6D;
