@@ -455,3 +455,11 @@ p::before {
   counter-increment: para;
   content: "Para " counter(para) ": ";
 }
+
+li[class="navigation active"] {
+  color: black;
+}
+
+li {
+  color: grey !important;
+}
