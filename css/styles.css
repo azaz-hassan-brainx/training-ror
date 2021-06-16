@@ -162,7 +162,13 @@ div.sticktoit {
 }
 
 div[class=div4]:hover {
-  background-color: white;
+  background-color: grey;
+  transform: rotate(-20deg);
+}
+
+@font-face {
+  font-family: nicefont;
+  src: url(../fonts/sansation_light.woff);
 }
 
 .flex-container {
@@ -174,6 +180,8 @@ div[class=div4]:hover {
 }
 
 .flex-container .box {
+  font-weight: bold;
+  font-family: nicefont;
   background-color: #f1f1f1;
   width: 50%;
   margin: 20px;
@@ -316,6 +324,10 @@ li.dropdown {
   text-align: center;
 }
 
+.desc:hover {
+  transform: scale(1.5, 1.5);
+}
+
 .bigit:hover .big-logo {
   display: block;
 }
@@ -326,6 +338,8 @@ div.gallery {
   border: 1px solid #ccc;
   float: left;
   width: 180px;
+
+  border-radius: 20px 20px 0 0;
 }
 
 div.gallery:hover {
@@ -335,6 +349,7 @@ div.gallery:hover {
 div.gallery img {
   width: 100%;
   height: auto;
+  border-radius: 20px 20px 0 0;
 }
 
 div.desc {
@@ -351,17 +366,25 @@ div.desc {
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
+.big-picture:hover {
+  transform: scale(2.5, 2.5);
+}
+
 .bigit:hover .big-picture {
   display: block;
 }
 
-input[type=text], input[type=email],input[type=password],
+:root {
+  --input-field-border-color: #ccc;
+}
+
+input[type=text], input[type=email],inpgit ut[type=password],
 input[type=number], input[type=reset] , select {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
   display: inline-block;
-  border: 1px solid #ccc;
+  border: 1px solid var(--input-field-border-color);
   border-radius: 4px;
   box-sizing: border-box;
 }
@@ -384,9 +407,20 @@ input[type=submit]:hover {
   background-position: 10px 10px; 
   background-repeat: no-repeat;
   /* /padding: 12px 20px 12px 40px; */
-  transition: width 0.4s ease-out;
+  transition: width 0.4s ease-in-out;
 }
 
+input[type=reset] {
+  width: 100px;
+  height: 45px;
+  transition: width 2s, height 2s, transform 2s;
+}
+
+input[type=reset]:hover {
+  width: 100px;
+  height: 100px;
+  transform: rotate(180deg);
+}
 
 div {
   border-radius: 5px;
@@ -480,4 +514,24 @@ li[class="navigation active"] {
 
 li {
   color: grey !important;
+}
+
+.lets-animate {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  position: relative;
+  animation-name: example;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: backwards;
+}
+
+@keyframes example {
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:-200px;}
+  75%  {background-color:green; left:0px; top:-200px;}
+  100% {background-color:red; left:0px; top:0px;}
 }

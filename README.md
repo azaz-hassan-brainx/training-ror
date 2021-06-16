@@ -5,6 +5,10 @@ https://azaz-hassan-brainx.github.io/training-ror/css/
 
 
 16 June 2021
+Commit: Improved box model and used animations, transformations on the main page. Used object-fit on new layout in /layout1/ folder. Done till: https://www.w3schools.com/css/css3_mediaqueries_ex.asp ... Only flexbox left in CSS Advanced.
+ 
+
+16 June 2021
 Commit: Started CSS Advanced and done till Shadows.
 
 
